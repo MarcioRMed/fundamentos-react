@@ -1,0 +1,7 @@
+
+.App{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;  /* quebra a linha dentro flexbox */
+
+}

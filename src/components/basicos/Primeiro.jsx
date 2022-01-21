@@ -3,7 +3,7 @@ import React from 'react'
 
 export default () =>    
         <>
-            <h1> Primeiro Componente (Arrow) </h1>
-            <h2> Exemplo de um componete React </h2>         
+            <h2> Primeiro Componente (Arrow) </h2>
+            <h3> Exemplo de um componete React </h3>         
         </>
 

@@ -14,6 +14,7 @@ import Pai from './components/comunicacao/direta/Pai'
 import Super from './components/comunicacao/indireta/Super'
 import Input from './components/form/Input'
 import Contador from './components/contador/Contador'
+import Mega from './components/mega/Mega'
 
 
 
@@ -26,19 +27,26 @@ export default (props) => (
 
         <div className="Cards"> 
 
+        <Card titulo=" #11 - Mega" color="#73503c">
+            <Mega qtdeNumero = {8}>  </Mega>
+        </Card>
 
         <Card titulo=" #10 - Contador" color="#293e6a">
             <Contador passo={10} valor={100}></Contador>
-        </Card>'
+        </Card>
+
         <Card titulo=" #09 - Imput" color="#9c0f5f">
             <Input></Input>
-        </Card>'
+        </Card>
+
         <Card titulo=" #08 - Comunicação Indireta" color="#000">
             <Super></Super>
-        </Card>'
+        </Card>
+
         <Card titulo=" #07 - Comunicação Direta" color="#4298b5">
             <Pai sobrenome="Freitas"></Pai>
-        </Card>'
+        </Card>
+
         <Card titulo=" #06 - Condicional v2" color="#FA6900">
             <CondicionalComIf numero={10} />
         </Card>
